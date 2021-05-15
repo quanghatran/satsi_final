@@ -1,0 +1,54 @@
+.sub-content-testimonial {
+  text-align: justify;
+  font-size: 11px;
+  margin-bottom: 7px;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;	
+  display: -webkit-box;
+}
+
+.sub-users-testimonial-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #041735;
+  text-align: start;
+  font-size: 14px;
+}
+
+.sub-info-news {
+  font-weight: 200;
+  text-align: start;
+  font-size: 14px;
+  margin-bottom: 7px;
+}
+
+.satsi-reputation {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 1px solid #cc8e35;
+  border-radius: rounded;
+  box-shadow: 1px -2px 5px #041735;
+}
+
+.reputation-title {
+  font-weight: 400;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+.condition-title {
+  font-weight: 600;
+  width: 100%;
+  background-color: #cc8e35;
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+
+
