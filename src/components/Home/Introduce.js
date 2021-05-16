@@ -10,7 +10,7 @@ const Introduce = () => {
 					<div className='col-xl-8 col-lg-8 col-md-10 mb-30'>
 						<div className='section-tittle section-tittle2 text-center'>
 							<h2 style={{ color: "#041735" }}>
-								<a href='#'>
+								<a className='title titleComponent-introduce' href='#'>
 									SATSI - VIỆN ĐÀO TẠO KHỞI NGHIỆP VÀ ỨNG DỤNG CÔNG NGHỆ CAO
 								</a>
 							</h2>

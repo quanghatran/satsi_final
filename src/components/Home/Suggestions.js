@@ -1,6 +1,6 @@
 const Suggestions = () => {
 	return (
-		<div className='contact pt-0 pb-30' style={{ backgroundColor: "#041735" }}>
+		<div className='contact pt-0 pb-30'>
 			<div className='container'>
 				<div className='row'>
 					{/* <div class="col-12">
@@ -9,10 +9,10 @@ const Suggestions = () => {
 					<div className='row justify-content-center'>
 						<div className='col-xl-8 col-lg-8 col-md-10'>
 							<div className='section-tittle section-tittle2 text-center mb-30 mt-30'>
-								<h2 style={{ color: "#cc8e35" }}>
+								<h2 style={{ color: "#041735" }}>
 									MUỐN DU HỌC ĐỨC NHƯNG CHƯA BIẾT CHUẨN BỊ TỪ ĐÂU?
 								</h2>
-								<p style={{ color: "#cc8e35" }}>
+								<p style={{ color: "#041735" }}>
 									Lorem ipsum dolor sit amet consectetur adipisicing elit.
 									Soluta facere odit iusto dolorum quis omnis possimus provident
 									corporis voluptates est.
@@ -39,7 +39,7 @@ const Suggestions = () => {
 											onfocus="this.placeholder = ''"
 											onblur="this.placeholder = 'Enter your name'"
 											placeholder='Enter your name'
-											style={{ borderColor: "#fff" }}
+											style={{ borderColor: "#041735" }}
 										/>
 									</div>
 								</div>
@@ -53,7 +53,7 @@ const Suggestions = () => {
 											onfocus="this.placeholder = ''"
 											onblur="this.placeholder = 'Enter email address'"
 											placeholder='Email'
-											style={{ borderColor: "#fff" }}
+											style={{ borderColor: "#041735" }}
 										/>
 									</div>
 								</div>
@@ -67,7 +67,7 @@ const Suggestions = () => {
 											onfocus="this.placeholder = ''"
 											onblur="this.placeholder = 'Enter Subject'"
 											placeholder='Enter Subject'
-											style={{ borderColor: "#fff" }}
+											style={{ borderColor: "#041735" }}
 										/>
 									</div>
 								</div>
@@ -82,7 +82,7 @@ const Suggestions = () => {
 											onfocus="this.placeholder = ''"
 											onblur="this.placeholder = 'Enter Message'"
 											placeholder=' Enter Message'
-											style={{ borderColor: "#fff" }}
+											style={{ borderColor: "#041735" }}
 											defaultValue={""}
 										/>
 									</div>
@@ -91,7 +91,8 @@ const Suggestions = () => {
 							<div className='form-group mt-3'>
 								<button
 									type='submit'
-									className='button button-contactForm boxed-btn'
+									className='button button-contactForm boxed-btn send-info'
+									style={{ "border-color": "#2a456d", "text-color": "#2a456d" }}
 								>
 									GỬI THÔNG TIN
 								</button>

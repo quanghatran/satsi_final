@@ -1,3 +1,4 @@
+
 .sub-content-testimonial {
   text-align: justify;
   font-size: 11px;
@@ -51,4 +52,14 @@
   padding: 10px;
 }
 
+.titleComponent-introduce:hover {
+  color: #2a456d;
+}
 
+.titleComponent-reputation:hover {
+  color: #e4b97e ;
+}
+
+.send-info:hover {
+  background-color: #cc8e35!important;
+}

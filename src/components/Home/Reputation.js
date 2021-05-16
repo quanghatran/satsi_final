@@ -10,7 +10,9 @@ const Reputaion = () => {
 					<div className='col-xl-8 col-lg-8 col-md-10'>
 						<div className='section-tittle section-tittle2 text-center mb-60'>
 							<h2 style={{ color: "#cc8e35" }}>
-								SATSI - UY TÍN SỐ MỘT VỀ DU HỌC ĐỨC
+								<a className='titleComponent-reputation' href='#'>
+									SATSI - UY TÍN SỐ MỘT VỀ DU HỌC ĐỨC
+								</a>
 							</h2>
 						</div>
 					</div>
@@ -25,7 +27,7 @@ const Reputaion = () => {
 										style={{ borderRadius: "20px" }}
 									>
 										<img
-											src='images/du-hoc-nghe-Duc-nha-hang-khach-san-750x400-1.png	'
+											src='../../images/banner5.png'
 											alt=''
 											className='rounded-circle mt-30 satsi-reputation'
 										/>

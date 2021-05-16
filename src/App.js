@@ -6,8 +6,9 @@ import Logo from "./components/Logo";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import BackTop from "./components/BackTop";
-import Slogan from "./components/Slogan";
-import Suggestions from "./components/Suggestions";
+// import Slogan from "./components/Slogan";
+// import Suggestions from "./components/Suggestions";
+import GermanyPage from "./components/GermanyPage";
 
 function App() {
 	return (
@@ -19,9 +20,13 @@ function App() {
 				<Route exact path='/'>
 					<Home />
 				</Route>
+				<Route path='/dhd'>
+					<GermanyPage />
+				</Route>
 			</Switch>
-			<Suggestions />
-			<Slogan />
+
+			{/* <Suggestions /> */}
+			{/* <Slogan /> */}
 			<Footer />
 			<BackTop />
 		</Router>

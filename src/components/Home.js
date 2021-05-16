@@ -5,12 +5,13 @@ import Introduce from "./Home/Introduce";
 import Reputation from "./Home/Reputation";
 import Selections from "./Home/Selections";
 import Certificate from "./Home/Certificate";
-import Conditions from "./Home/Conditions";
 import Itinerary from "./Home/Itinerary";
 import ImageSatsi from "./Home/ImageSatsi";
 import News from "./Home/News";
 import Partners from "./Home/Partners";
 import Testimonials from "./Home/Testimonials";
+import Conditions from "./Home/Conditions";
+import Suggestions from "./Home/Suggestions";
 
 const Home = () => {
 	return (
@@ -19,14 +20,14 @@ const Home = () => {
 			<Introduce />
 			<Reputation />
 			<Commitment />
-			<Selections />
 			<Certificate />
-			<Conditions />
 			<Itinerary />
-			<Testimonials />
 			<ImageSatsi />
+			<Testimonials />
 			<News />
+			<Conditions />
 			<Partners />
+			<Suggestions />
 		</HomeContainer>
 	);
 };
