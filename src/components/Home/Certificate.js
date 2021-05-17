@@ -5,11 +5,17 @@ const Certificate = () => {
 				<div className='row justify-content-center'>
 					<div className='col-xl-8 col-lg-8 col-md-12'>
 						<div className='section-tittle text-center mb-50'>
-							<h2 style={{ color: "#041735" }}>GIẤY CHỨNG NHẬN LIÊN KẾT</h2>
+							<h2 style={{ color: "#041735" }}>
+								<a className='title titleComponent-introduce' href='#'>
+									GIẤY CHỨNG NHẬN LIÊN KẾT
+								</a>
+							</h2>
 							<p style={{ color: "#041735" }}>
-								Combine sections from Olla's vast component library and create
-								beautiful.
+								SATSi đã kết nối với rất nhiều đơn vị uy tín tại Việt Nam và
+								CHLB Đức nhằm đảm bảo chất lượng đào tạo, chất lượng đầu ra cho
+								nguồn nhân lực tinh hoa Việt.
 							</p>
+
 							{/* <p style="color: #dfc197">
                                       Combine sections from Olla's vast component library and create
                                       beautiful.

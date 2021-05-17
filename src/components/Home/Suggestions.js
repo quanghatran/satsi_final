@@ -13,9 +13,9 @@ const Suggestions = () => {
 									MUỐN DU HỌC ĐỨC NHƯNG CHƯA BIẾT CHUẨN BỊ TỪ ĐÂU?
 								</h2>
 								<p style={{ color: "#041735" }}>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit.
-									Soluta facere odit iusto dolorum quis omnis possimus provident
-									corporis voluptates est.
+									Hãy để SATSi là cánh tay nối dài giúp bạn tự tin trên hành
+									trình du học của mình. Kết nối với chúng tôi để nhận được hỗ
+									trợ uy tín và chuyên nghiệp!
 								</p>
 							</div>
 						</div>

@@ -6,11 +6,11 @@ const Partners = () => {
 					<div className='col-xl-8 col-lg-8 col-md-10'>
 						<div className='section-tittle section-tittle2 text-center mb-60'>
 							<h2 style={{ color: "#cc8e35" }}>ĐỐI TÁC CỦA SATSI</h2>
-							<p style={{ color: "#cc8e35" }}>
-								A powerful suite of features to help you build fast and
-								functional layouts. Olla is perfect for building websites of
-								almost any kind.
-							</p>
+							{/* <p style={{ color: "#cc8e35" }}>
+								Hãy để SATSi là cánh tay nối dài giúp bạn tự tin trên hành trình
+								du học của mình. Kết nối với chúng tôi để nhận được hỗ trợ uy
+								tín và chuyên nghiệp!
+							</p> */}
 						</div>
 					</div>
 				</div>

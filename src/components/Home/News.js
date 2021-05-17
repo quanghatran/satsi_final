@@ -1,11 +1,18 @@
 const News = () => {
 	return (
-		<div className='gallery-area'>
+		<div className='gallery-area mt-30'>
 			<div className='container'>
 				<div className='row justify-content-center'>
 					<div className='col-xl-8 col-lg-8 col-md-10'>
-						<div className='section-tittle section-tittle2 text-center mb-30 mt-30'>
-							<h2 style={{ color: "#041735" }}>TIN TỨC &amp; SỰ KIỆN</h2>
+						<div className='section-tittle section-tittle2 text-center'>
+							<h2 style={{ color: "#cc8e35" }}>
+								<a className='titleComponent-reputation' href='#'>
+									TIN TỨC <span>&amp;</span> SỰ KIỆN
+								</a>
+							</h2>
+							<p style={{ color: "#be8a3f" }}>
+								Nơi bạn cập nhật các thông tin chính thức từ SATSi
+							</p>
 						</div>
 					</div>
 				</div>
@@ -32,19 +39,22 @@ const News = () => {
 								}}
 							>
 								<div className='users-testimonial'>
-									<p
-										style={{
-											fontWeight: 700,
-											textTransform: "uppercase",
-											color: "#041735",
-											textAlign: "start",
-										}}
-									>
-										TIÊU ĐỀ BÀI VIẾT
+									<p className='title-news'>
+										<a
+											className='link-title-news'
+											style={{ color: "#cc8e35" }}
+											href='#'
+										>
+											TIÊU ĐỀ BÀI VIẾT
+										</a>
 									</p>
 									<p
-										className='text-dark'
-										style={{ fontWeight: 200, textAlign: "start" }}
+										// className='text-dark'
+										style={{
+											fontWeight: 200,
+											textAlign: "start",
+											color: "#041735",
+										}}
 									>
 										<span className='times-news'>25-06-2021 |</span>
 										<span className='category-news'>Tin tức |</span>
@@ -87,8 +97,14 @@ const News = () => {
 									style={{ fontWeight: 600, margin: "0 auto" }}
 								>
 									<div className='sub-users-testimonial'>
-										<p className='sub-users-testimonial-title'>
-											TIÊU ĐỀ BÀI VIẾT
+										<p className='title-news'>
+											<a
+												className='link-title-news'
+												style={{ color: "#cc8e35", "font-size": "14px" }}
+												href='#'
+											>
+												TIÊU ĐỀ BÀI VIẾT
+											</a>
 										</p>
 										<p className='text-dark sub-info-news'>
 											<span className='times-news'>25-06-2021 |</span>
@@ -98,7 +114,9 @@ const News = () => {
 										<p className='sub-content-testimonial'>
 											Lorem ipsum dolor sit amet consectetur adipisicing elit.
 											Eum rerum laudantium ratione totam cum adipisci commodi
-											sint laborum aperiam et!
+											sint laborum aperiam et! Lorem ipsum dolor sit amet
+											consectetur adipisicing elit. Eum rerum laudantium ratione
+											totam cum adipisci commodi sint laborum aperiam et!
 										</p>
 									</div>
 								</div>
@@ -124,8 +142,14 @@ const News = () => {
 									style={{ fontWeight: 600, margin: "0 auto" }}
 								>
 									<div className='sub-users-testimonial'>
-										<p className='sub-users-testimonial-title'>
-											TIÊU ĐỀ BÀI VIẾT
+										<p className='title-news'>
+											<a
+												className='link-title-news'
+												style={{ color: "#cc8e35", "font-size": "14px" }}
+												href='#'
+											>
+												TIÊU ĐỀ BÀI VIẾT
+											</a>
 										</p>
 										<p className='text-dark sub-info-news'>
 											<span className='times-news'>25-06-2021 |</span>
@@ -135,7 +159,9 @@ const News = () => {
 										<p className='sub-content-testimonial'>
 											Lorem ipsum dolor sit amet consectetur adipisicing elit.
 											Eum rerum laudantium ratione totam cum adipisci commodi
-											sint laborum aperiam et!
+											sint laborum aperiam et! Lorem ipsum dolor sit amet
+											consectetur adipisicing elit. Eum rerum laudantium ratione
+											totam cum adipisci commodi sint laborum aperiam et!
 										</p>
 									</div>
 								</div>
@@ -161,8 +187,14 @@ const News = () => {
 									style={{ fontWeight: 600, margin: "0 auto" }}
 								>
 									<div className='sub-users-testimonial'>
-										<p className='sub-users-testimonial-title'>
-											TIÊU ĐỀ BÀI VIẾT
+										<p className='title-news'>
+											<a
+												className='link-title-news'
+												style={{ color: "#cc8e35", "font-size": "14px" }}
+												href='#'
+											>
+												TIÊU ĐỀ BÀI VIẾT
+											</a>
 										</p>
 										<p className='text-dark sub-info-news'>
 											<span className='times-news'>25-06-2021 |</span>

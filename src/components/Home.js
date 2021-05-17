@@ -21,6 +21,7 @@ const Home = () => {
 			<Reputation />
 			<Commitment />
 			<Certificate />
+			<Selections />
 			<Itinerary />
 			<ImageSatsi />
 			<Testimonials />

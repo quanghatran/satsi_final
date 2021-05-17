@@ -1,3 +1,6 @@
+import footerLogo from "../images/logo_satsi_3.png";
+import arrow from "../images/arrow.svg";
+
 const Footer = () => {
 	return (
 		<div className='footer-wrapper gray-bg'>
@@ -9,7 +12,7 @@ const Footer = () => {
 								<div className='single-footer-caption mb-20'>
 									<div className='footer-logo mb-35'>
 										<a href='#'>
-											<img src='images/logo_satsi_3.png' alt='' />
+											<img src={footerLogo} alt='' />
 										</a>
 									</div>
 								</div>
@@ -88,7 +91,7 @@ const Footer = () => {
                                                               button-contactForm
                                                           '
 												>
-													<img src='images/arrow.svg' alt='' />
+													<img src={arrow} alt='' />
 												</button>
 											</div>
 											<div className='mt-10 info' />

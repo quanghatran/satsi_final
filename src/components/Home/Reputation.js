@@ -11,7 +11,7 @@ const Reputaion = () => {
 						<div className='section-tittle section-tittle2 text-center mb-60'>
 							<h2 style={{ color: "#cc8e35" }}>
 								<a className='titleComponent-reputation' href='#'>
-									SATSI - UY TÍN SỐ MỘT VỀ DU HỌC ĐỨC
+									ĐỐI TÁC TẠI ĐỨC VÀ NGÀNH NGHỀ DU HỌC ĐA DẠNG
 								</a>
 							</h2>
 						</div>
@@ -24,7 +24,7 @@ const Reputaion = () => {
 								<div className='col-xl-3 col-lg-3 col-md-6 col-sm-6'>
 									<div
 										className='single-cat text-center bg-light mb-30'
-										style={{ borderRadius: "20px" }}
+										style={{ borderRadius: "20px", height: "370px" }}
 									>
 										<img
 											src='../../images/banner5.png'
@@ -33,7 +33,7 @@ const Reputaion = () => {
 										/>
 										<div className='reputation-title'>
 											<a style={{ color: "#cc8e35" }} href='#'>
-												KÝ KẾT ĐỘC QUYỀN TẬP ĐOÀN ĐỨC
+												ĐỐI TÁC TẠI ĐỨC VÀ NGÀNH NGHỀ DU HỌC ĐA DẠNG
 											</a>
 										</div>
 									</div>
@@ -41,7 +41,7 @@ const Reputaion = () => {
 								<div className='col-xl-3 col-lg-3 col-md-6 col-sm-6'>
 									<div
 										className='single-cat text-center bg-light mb-30'
-										style={{ borderRadius: "20px" }}
+										style={{ borderRadius: "20px", height: "370px" }}
 									>
 										<img
 											src='images/Du-hoc-Uc-nganh-Du-lich-Nha-hang-Khach-san_5-1024x681.jpg'
@@ -50,7 +50,8 @@ const Reputaion = () => {
 										/>
 										<div className='reputation-title'>
 											<a style={{ color: "#cc8e35" }} href='#'>
-												CƠ SỞ VẬT CHẤT HIỆN ĐẠI, KHANG TRANG
+												HỢP TÁC ĐỘC QUYỀN VỚI ĐH HÀ NỘI ĐÀO TẠO TIẾNG ĐỨC CHO
+												HỌC VIÊN
 											</a>
 										</div>
 									</div>
@@ -58,7 +59,7 @@ const Reputaion = () => {
 								<div className='col-xl-3 col-lg-3 col-md-6 col-sm-6'>
 									<div
 										className='single-cat text-center bg-light mb-30'
-										style={{ borderRadius: "20px" }}
+										style={{ borderRadius: "20px", height: "370px" }}
 									>
 										<img
 											src='images/tuy-n-sinh-h-c-ngh-c-khi-i-n-i-n-t-elektroniker-1024x683.jpg'
@@ -67,7 +68,7 @@ const Reputaion = () => {
 										/>
 										<div className='reputation-title' style={{}}>
 											<a style={{ color: "#cc8e35" }} href='#'>
-												LỘ TRÌNH HỌC TẬP RÕ RÀNG CỤ THỂ
+												PHẦN MỀM HỖ TRỢ HỌC TẬP THÔNG MINH - HỌC TỪ XA
 											</a>
 										</div>
 									</div>
@@ -75,7 +76,7 @@ const Reputaion = () => {
 								<div className='col-xl-3 col-lg-3 col-md-6 col-sm-6'>
 									<div
 										className='single-cat text-center bg-light mb-30'
-										style={{ borderRadius: "20px" }}
+										style={{ borderRadius: "20px", height: "370px" }}
 									>
 										<img
 											src='images/du-hoc-duc-eduland-1024x683.jpg'
@@ -84,7 +85,7 @@ const Reputaion = () => {
 										/>
 										<div className='reputation-title'>
 											<a style={{ color: "#cc8e35" }} href='#'>
-												PHẦN MỀM HỖ TRỢ HỌC THẬP THÔNG TIN
+												LỘ TRÌNH HỌC TẬP VÀ PHÁT TRIỂN NGHỀ NGHIỆP RÕ RÀNG
 											</a>
 										</div>
 									</div>

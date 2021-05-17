@@ -11,19 +11,14 @@
   display: -webkit-box;
 }
 
-.sub-users-testimonial-title {
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #041735;
-  text-align: start;
-  font-size: 14px;
-}
+
 
 .sub-info-news {
   font-weight: 200;
   text-align: start;
-  font-size: 14px;
+  font-size: 13px;
   margin-bottom: 7px;
+  color: #041735;
 }
 
 .satsi-reputation {
@@ -56,10 +51,21 @@
   color: #2a456d;
 }
 
-.titleComponent-reputation:hover {
-  color: #e4b97e ;
+.titleComponent-reputation:hover,
+.link-title-news:hover {
+  color: #bb9156 ;
+}
+
+.titleComponent-images:hover {
+  color: #ddd;
 }
 
 .send-info:hover {
   background-color: #cc8e35!important;
+}
+
+.title-news {
+  font-weight: 700;
+	text-transform: uppercase;
+	text-align: start
 }
